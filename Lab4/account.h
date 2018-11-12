@@ -31,7 +31,7 @@ class Saving_Account: public Account{
 protected:
   double m_interest_rate;
 public:
-  Saving_Account(int number, double balance=0);
+  Saving_Account(int number, double balance=0, double interest_rate=0.01);
   void add_intersts();
   ~Saving_Account();
 };
